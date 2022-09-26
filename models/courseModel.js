@@ -4,11 +4,11 @@ const courseSchema = mongoose.Schema(
   {
     name: {
       type: String,
-      required: true,
+      required: [true, "Course must ahve a name"],
     },
     duration: {
       type: Number,
-      required: true,
+      required: [true, "Course must have a duration"],
     },
     image: {
       type: String,

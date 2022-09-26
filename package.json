@@ -1,5 +1,8 @@
 {
   "name": "assignment-fcc-backend",
+  "engines": {
+    "node": "14.17.6"
+  },
   "type": "module",
   "version": "1.0.0",
   "description": "",
@@ -9,6 +12,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
     "google-auth-library": "^8.5.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.6.1"
